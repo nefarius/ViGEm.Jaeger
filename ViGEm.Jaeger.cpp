@@ -82,6 +82,8 @@ int main()
 	XUSB_REPORT_INIT(&report);
 
 	std::cout << "Running benchmark, observe http://localhost:16686/search for traces" << std::endl;
+	std::cout << std::endl;
+	std::cout << "Press Ctrl+C to quit" << std::endl;
 
 	//
 	// https://stackoverflow.com/a/38730516
