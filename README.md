@@ -8,9 +8,9 @@ Ever questioned the performance of `ViGEm` and worried how much time its use cho
 
 ## Usage
 
-1. Set up Jaeger Tracing ([the `jaeger-all-in-one(.exe)` package is recommended](https://www.jaegertracing.io/docs/latest/getting-started/#all-in-one))
-2. Build/download and run this tool with the [`ViGEmBus` driver](https://github.com/ViGEm/ViGEmBus/releases) installed and **no other gamepad connected!**
-3. Navigate to `http://localhost:16686/search` and observe the collected tracing information
+1. Set up Jaeger Tracing ([the `jaeger-all-in-one(.exe)` package is recommended](https://www.jaegertracing.io/docs/latest/getting-started/#all-in-one) for a quick start)
+2. Build/download and run this tool with the [`ViGEmBus` driver](https://github.com/ViGEm/ViGEmBus/releases) installed and **no other controller connected!**
+3. Navigate to [`http://localhost:16686/search`](http://localhost:16686/search) and observe the collected tracing information
 
 ## Example run
 
